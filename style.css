@@ -1,13 +1,13 @@
-h2 {
+div.sisu h2 {
 	margin-bottom: 5px;
 }
-h1 {
+div.sisu h1 {
 	font-family: Arial;
 	color: #001f3f;
 }
 		
 	
-a {
+div.sisu a {
 	color: #050505;
 	text-decoration: none;
 }
@@ -15,7 +15,7 @@ a {
 
 
 
-a:link, a:visited, a:hover {
+div.sisu a:link, div.sisu a:visited, div.sisu a:hover {
     background-color: #111111;
 	border-radius:25px;
     color: #3D9970;
@@ -27,6 +27,6 @@ a:link, a:visited, a:hover {
     display: inline-block;
 }
 
-a:hover{
+div.sisu a:hover{
 	color:#DDDDDD;
 }

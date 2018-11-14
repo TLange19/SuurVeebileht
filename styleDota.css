@@ -1,11 +1,12 @@
-p {
-font-family: Arial;
+.sisu p {
+	font-family: Arial;
 }
 
-p {
-color:white;
+.sisu p {
+	color:white;
 }
 
-h1 {color: white;
+.sisu h1 {
+	color: white;
 }
 

@@ -1,0 +1,42 @@
+body {
+	margin: 0px;
+}
+
+div.päis_välimine {
+	margin: 0px;
+	padding: 20px;
+	background-color: black;
+	font-family: Arial;
+	color: #3D9970;
+}
+
+div.päis {
+	margin: 0px;
+	padding: 0px;
+	width: 70%;
+	background-image: url("https://sg.fiverrcdn.com/photos/112518536/original/ced48640c2bd4f6146dea7c00a5b8f515a08ef2a.png?1527832760");
+	background-size: 100%;
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: 0 40%;
+}
+
+div.päis a {
+	color: #3D9970;
+	text-decoration: none;
+}
+
+div.päis div.leheküljed a {
+	background-color: #111111;
+	border-radius:25px;
+    padding: 15px;
+	width: 30x;
+	height: 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+div.päis a:hover{
+	color:#DDDDDD;
+}
