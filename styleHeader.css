@@ -37,6 +37,10 @@ div.päis div.leheküljed a {
     display: inline-block;
 }
 
+div.päis a:visited{
+	color: #0074D9;
+}
+
 div.päis a:hover{
 	color:#DDDDDD;
 }

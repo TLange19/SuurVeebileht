@@ -12,10 +12,7 @@ div.sisu a {
 	text-decoration: none;
 }
 
-
-
-
-div.sisu a:link, div.sisu a:visited, div.sisu a:hover {
+div.sisu a:link {
     background-color: #111111;
 	border-radius:25px;
     color: #3D9970;
@@ -27,6 +24,11 @@ div.sisu a:link, div.sisu a:visited, div.sisu a:hover {
     display: inline-block;
 }
 
-div.sisu a:hover{
-	color:#DDDDDD;
+div.sisu a:visited {
+	color: #0074D9;
 }
+
+div.sisu a:hover {
+	color: #DDDDDD;
+}
+
