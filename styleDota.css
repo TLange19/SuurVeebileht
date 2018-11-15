@@ -1,12 +1,30 @@
+div.logo {
+	background-image: url("dota2.png");
+	padding: 0px 50px 0px 50px;
+}
+body {
+	background-color: #E3E3E3;
+	color: black;
+	font-family:Arial;
+	margin: 0px;
+}
+
+div.sisu {
+	padding:100px;
+}
 .sisu p {
 	font-family: Arial;
 }
 
 .sisu p {
-	color:white;
+	color:black;
 }
 
 .sisu h1 {
-	color: white;
+	color: black;
+}
+ul.lingid li {
+	padding-bottom: 5px;
+	font-style: italic;
 }
 
