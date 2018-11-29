@@ -12,17 +12,7 @@ div.sisu a {
 	text-decoration: none;
 }
 
-div.sisu a:link {
-    background-color: #111111;
-	border-radius:25px;
-    color: #3D9970;
-    padding: 15px;
-	width: 30x;
-	height: 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
+
 
 
 
