@@ -29,58 +29,60 @@
 			<h1>Videomängude <em>maailm</em></h1>
 			
 	
-		
-			<a href="civv.html"><img src="https://steamuserimages-a.akamaihd.net/ugc/844838834736690293/06B458D2F41271147F46AB2AB570A4BAF3446B35/" width="150" height="150" alt="civ"> </a>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		
-			<a href="cod.html"><img src="https://vignette.wikia.nocookie.net/callofduty/images/b/b2/Call-of-duty-logo.jpg/revision/latest?cb=20090908003943" width="150" height="150" alt="cod"> </a>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<div class="logod">
+				<a href="civv.html"><img src="https://steamuserimages-a.akamaihd.net/ugc/844838834736690293/06B458D2F41271147F46AB2AB570A4BAF3446B35/" width="150" height="150" alt="civ"> </a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			
-			<a href="csgo.html"><img src="http://media.steampowered.com/apps/csgo/blog/images/competitive_logo_large.png" width="150" height="150" alt="csgo"> </a>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		
-			<a href="dota2.html"><img src="https://seeklogo.com/images/D/dota-2-logo-A8CAC9B4C9-seeklogo.com.png" width="150" height="150" alt="dota"> </a>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="cod.html"><img src="https://vignette.wikia.nocookie.net/callofduty/images/b/b2/Call-of-duty-logo.jpg/revision/latest?cb=20090908003943" width="150" height="150" alt="cod"> </a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				
+				<a href="csgo.html"><img src="http://media.steampowered.com/apps/csgo/blog/images/competitive_logo_large.png" width="150" height="150" alt="csgo"> </a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			
-			<a href="pubg.html"><img src="https://res.cloudinary.com/teepublic/image/private/s---xiJeC7t--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1535164327/production/designs/3064946_0.jpg" width="150" height="150" alt="pubg"> </a>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			
-			<a href="warcraft.html"><img src="https://cdn.freebiesupply.com/logos/large/2x/world-of-warcraft-logo-png-transparent.png" width="150" height="150" alt="wc"> </a>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="dota2.html"><img src="https://seeklogo.com/images/D/dota-2-logo-A8CAC9B4C9-seeklogo.com.png" width="150" height="150" alt="dota"> </a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				
+				<a href="pubg.html"><img src="https://res.cloudinary.com/teepublic/image/private/s---xiJeC7t--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1535164327/production/designs/3064946_0.jpg" width="150" height="150" alt="pubg"> </a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				
+				<a href="warcraft.html"><img src="https://cdn.freebiesupply.com/logos/large/2x/world-of-warcraft-logo-png-transparent.png" width="150" height="150" alt="wc"> </a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			</div>
-		
-				<!-- Display the countdown timer in an element -->
-		<p id="demo"></p>
+			
+					<!-- Display the countdown timer in an element -->
+			<p class="countdown" id="countdown"></p>
 
-		<script>
-		// Set the date we're counting down to
-		var countDownDate = new Date("Jan 5, 2019 15:37:25").getTime();
+			<script>
+			// Set the date we're counting down to
+			var countDownDate = new Date("Jan 5, 2019 15:37:25").getTime();
 
-		// Update the count down every 1 second
-		var x = setInterval(function() {
+			// Update the count down every 1 second
+			var x = setInterval(function() {
 
-		  // Get todays date and time
-		  var now = new Date().getTime();
+			  // Get todays date and time
+			  var now = new Date().getTime();
 
-		  // Find the distance between now and the count down date
-		  var distance = countDownDate - now;
+			  // Find the distance between now and the count down date
+			  var distance = countDownDate - now;
 
-		  // Time calculations for days, hours, minutes and seconds
-		  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-		  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-		  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-		  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+			  // Time calculations for days, hours, minutes and seconds
+			  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-		  // Display the result in the element with id="demo"
-		  document.getElementById("demo").innerHTML = days + " päeva " + hours + ":"
-		  + minutes + ":" + seconds + ":";
+			  // Display the result in the element with id="countdown"
+			  document.getElementById("countdown").innerHTML = days + " päeva " + hours + (minutes < 10 ? ":0" : ":")
+			  + minutes + (seconds < 10 ? ":0" : ":") + seconds;
 
-		  // If the count down is finished, write some text 
-		  if (distance < 0) {
-		    clearInterval(x);
-		    document.getElementById("demo").innerHTML = "EXPIRED";
-		  }
-		}, 1000);
-		</script>
+			  // If the count down is finished, write some text 
+			  if (distance < 0) {
+				clearInterval(x);
+				document.getElementById("countdown").innerHTML = "EXPIRED";
+			  }
+			}, 1000);
+			</script>
+			
+		</div>
 	</body>
 </html>

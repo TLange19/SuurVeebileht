@@ -11,12 +11,26 @@ div.sisu a {
 	color: #3D9970;
 	text-decoration: none;}
 
+div.sisu {
+	margin: 50px auto 50px auto;
+	width: 80%;
+}
 
-
-
-
+p.countdown {
+	margin: 20px auto 20px auto;
+	width: 500px;
+	font-weight: bold;
+	font-size: 50px;
+}
 
 div.sisu a:hover {
 	color: #DDDDDD;
 }
+
+
+
+
+
+
+
 
