@@ -1,0 +1,43 @@
+body {
+	background-color: beige;
+	background-image: url("https://wallpapercave.com/wp/wp2462431.jpg");
+	background-size: cover;
+	background-position: 0 300px
+	color: black;
+	font-family: Arial;
+}
+
+div.logo {
+	background-image: url("http://wallpapershdnow.com/images/games/survival/pubg-playerunknowns-battlegrounds/pubg-playerunknowns-battlegrounds-background-16.jpg");
+	background-size: cover;
+	background-position: 0 -300px;
+}
+
+img.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	max-height: 250px;
+}
+
+img.auto {
+	width: 100%;
+}
+
+div.sisu {
+	margin: 50px auto 50px auto;
+	padding: 10px;
+	width: 80%;
+	background-color: rgba(255, 255, 255, 0.5)
+	
+}
+
+p {
+	font-family: Arial;
+}
+
+ul.lingid li {
+	padding-bottom: 5px;
+	font-style: italic;
+}

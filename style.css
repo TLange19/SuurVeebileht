@@ -9,11 +9,16 @@ div.sisu h1 {
 	
 div.sisu a {
 	color: #3D9970;
-	text-decoration: none;}
+	text-decoration: none;
+}
 
 div.sisu {
 	margin: 50px auto 50px auto;
 	width: 80%;
+}
+
+div.logod img {
+	margin: 10px 10px 10px 10px;
 }
 
 p.countdown {
