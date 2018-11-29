@@ -20,11 +20,18 @@ div.päis {
 	margin-left: auto;
 	margin-right: auto;
 	background-position: 0 40%;
+	position: relative;
+	min-height: 170px;
 }
 
 div.päis a {
 	color: #3D9970;
 	text-decoration: none;
+}
+
+div.päis div.leheküljed {
+	position: absolute;
+	bottom: 0;
 }
 
 div.päis div.leheküljed a {
@@ -38,7 +45,7 @@ div.päis div.leheküljed a {
 }
 
 div.päis a:visited{
-	color: #0074D9;
+	color: #317758;
 }
 
 div.päis a:hover{
