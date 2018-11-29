@@ -8,7 +8,7 @@ div.sisu h1 {
 		
 	
 div.sisu a {
-	color: #050505;
+	color: #3D9970;
 	text-decoration: none;
 }
 
@@ -24,9 +24,7 @@ div.sisu a:link {
     display: inline-block;
 }
 
-div.sisu a:visited {
-	color: #0074D9;
-}
+
 
 div.sisu a:hover {
 	color: #DDDDDD;
