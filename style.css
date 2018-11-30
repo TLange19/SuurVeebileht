@@ -21,6 +21,14 @@ div.logod img {
 	margin: 10px 10px 10px 10px;
 }
 
+div.releasedate {
+	margin: 20px auto 20px auto;
+	width: 600px;
+	color: #0000A0;
+	font-weight: bold;
+	font-size: 25px;
+}
+
 p.countdown {
 	margin: 20px auto 20px auto;
 	width: 500px;
