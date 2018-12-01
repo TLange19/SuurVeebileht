@@ -1,4 +1,4 @@
-ndiv.sisu h2 {
+div.sisu h2 {
 	margin-bottom: 5px;
 }
 div.sisu h1 {
@@ -21,10 +21,17 @@ div.logod img {
 	margin: 10px 10px 10px 10px;
 }
 
+div.logod {
+	margin: 0px auto 0px auto;
+	width: 100%;
+	display: block;
+}
+
 div.releasedate {
 	margin: 20px auto 20px auto;
 	width: 600px;
 	color: #0000A0;
+	text-align: center;
 	font-weight: bold;
 	font-size: 25px;
 }
@@ -32,12 +39,15 @@ div.releasedate {
 p.countdown {
 	margin: 20px auto 20px auto;
 	width: 500px;
+	text-align: center;
 	font-weight: bold;
 	font-size: 50px;
 }
 
-div.meme {
-	margin: 35px auto 100px 275px;
+div.meme img {
+	display: block;
+	margin: 35px auto 100px auto;
+	width: 300px;
 }
 
 div.sisu a:hover {
