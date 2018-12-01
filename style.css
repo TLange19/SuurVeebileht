@@ -1,4 +1,4 @@
-div.sisu h2 {
+ndiv.sisu h2 {
 	margin-bottom: 5px;
 }
 div.sisu h1 {
@@ -34,6 +34,10 @@ p.countdown {
 	width: 500px;
 	font-weight: bold;
 	font-size: 50px;
+}
+
+div.meme {
+	margin: 35px auto 100px 275px;
 }
 
 div.sisu a:hover {
